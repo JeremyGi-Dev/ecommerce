@@ -1,0 +1,25 @@
+.flash {
+	font-family: inherit;
+	position: fixed;
+	right:20px;
+	bottom:20px;
+	text-align: right;
+	padding: 1em;
+	font-size: 1.1em;
+	z-index:11;
+	box-shadow: 0 -2px 5px 0 #3A3A3B;
+	background-color:#3A3A3B;
+	min-width:33%;
+	border-bottom:4px solid #ccc;
+	color:#fff;
+}
+.flash.flash-danger{border-bottom-color:#fc6042;}
+.flash.flash-warning{border-bottom-color:#f9c80e;}
+.flash.flash-info{border-bottom-color:#00adce;}
+.flash.flash-success{border-bottom-color:#19cfa2;}
+.flash p{float:left; margin-right:40px; margin-bottom:0;}
+.flash .close{margin-right:10px; cursor: pointer; float:right; color:#fff;}
+.flash .text-danger{color:#fc6042;}
+.flash .text-warning{color:#f9c80e;}
+.flash .text-info{color:#00adce;}
+.flash .text-success{color:#19cfa2;}
